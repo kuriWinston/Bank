@@ -1,0 +1,35 @@
+.benefits {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr 1.1fr;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  border-top: 1px solid #dde4d8;
+  border-bottom: 1px solid #dde4d8;
+  gap: 24px;
+}
+.benefits > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.benefits strong {
+  font-size: 29px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.benefits span,
+.benefits p {
+  font-size: 11px;
+  color: #677263;
+}
+.benefits p {
+  line-height: 1.9;
+  margin: 0;
+  border-left: 1px solid #dde4d8;
+  padding-left: 25px;
+  align-self: center;
+}
+.benefits b {
+  font-weight: 400;
+  color: #214a36;
+}

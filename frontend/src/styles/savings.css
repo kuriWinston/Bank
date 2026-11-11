@@ -1,0 +1,122 @@
+.savings {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  padding-bottom: 72px;
+}
+.savings-copy {
+  padding-top: 28px;
+}
+.savings-copy h2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+.savings-copy p {
+  font-size: 15px;
+  color: #63705e;
+  line-height: 1.7;
+}
+.rate {
+  font-size: 40px;
+  letter-spacing: -1px;
+  display: block;
+  margin-top: 30px;
+}
+.rate small {
+  font-size: 12px;
+  letter-spacing: 0;
+  color: #5e6d58;
+}
+.calculator {
+  padding: 30px;
+  border: 1px solid #dfe5da;
+  border-radius: 12px;
+  background: #fff;
+}
+.calculator label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  gap: 12px;
+}
+.calculator label strong {
+  font-size: 18px;
+  font-weight: 500;
+}
+.calculator input {
+  width: 100%;
+  margin: 24px 0 8px;
+  accent-color: #245b3e;
+  cursor: pointer;
+}
+.range-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #6e7868;
+}
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 26px 0 0;
+}
+legend {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+.terms {
+  display: flex;
+  gap: 8px;
+}
+.terms button {
+  flex: 1;
+  min-height: 44px;
+  background: #f3f5ef;
+  border-radius: 6px;
+  color: #496042;
+  font-size: 13px;
+}
+.terms .active {
+  background: #e2edd3;
+  color: #234d31;
+  box-shadow: inset 0 0 0 1px #9ab57a;
+}
+.result {
+  border-top: 1px solid #e7ebdf;
+  margin-top: 25px;
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.result > span {
+  font-size: 12px;
+}
+.result strong {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 6px;
+  letter-spacing: -1px;
+}
+.result .income {
+  font-size: 18px;
+  color: #47702f;
+  text-align: right;
+}
+.income small {
+  display: block;
+  font-size: 11px;
+  color: #6c7862;
+  margin-top: 8px;
+}
+.calculator .primary {
+  width: 100%;
+  margin-top: 22px;
+}
+.disclaimer {
+  font-size: 10px;
+  color: #6a7465;
+  line-height: 1.5;
+  margin: 12px 0 0;
+}

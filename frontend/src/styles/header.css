@@ -1,0 +1,80 @@
+.header {
+  height: 104px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  border-bottom: 1px solid #e3e8e0;
+}
+.brand {
+  font-size: 32px;
+  font-weight: 750;
+  letter-spacing: -1.5px;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.brand-dot {
+  margin-left: -10px;
+}
+.brandmark {
+  display: inline-flex;
+  width: 34px;
+  height: 36px;
+  background: #1d513d;
+  color: #d8f3a1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 1;
+  transform: rotate(-6deg);
+}
+.nav {
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+  margin-left: 48px;
+}
+.nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.login {
+  margin-left: auto;
+  background: none;
+  font-size: 14px;
+  min-height: 44px;
+}
+.login span {
+  margin-left: 18px;
+}
+.menu {
+  display: none;
+}
+.about .brandmark {
+  margin-bottom: 8px;
+}
+
+.menu-lines {
+  display: inline-block;
+  width: 18px;
+  height: 14px;
+  border-top: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  position: relative;
+}
+.menu-lines:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 4px;
+  border-top: 2px solid currentColor;
+}
+.header {
+  position: relative;
+}
+.menu {
+  order: 2;
+}

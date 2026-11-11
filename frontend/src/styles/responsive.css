@@ -1,0 +1,260 @@
+@media (min-width: 1500px) {
+  .wrap {
+    max-width: 1280px;
+  }
+  .hero-art {
+    min-height: 465px;
+  }
+  h1 {
+    font-size: 64px;
+  }
+}
+@media (max-width: 900px) {
+  .wrap {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .nav {
+    margin-left: 0;
+    gap: 18px;
+  }
+  .header {
+    gap: 24px;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  .hero {
+    gap: 24px;
+  }
+  .hero-art {
+    min-height: 420px;
+  }
+  .bank-card {
+    width: 260px;
+    height: 180px;
+    padding: 19px;
+  }
+  .card-number {
+    font-size: 11px;
+  }
+  .card-bottom {
+    margin-top: 12px;
+  }
+  .cashback {
+    width: 250px;
+    bottom: 72px;
+  }
+  .product {
+    padding: 22px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  .savings {
+    gap: 32px;
+  }
+  .savings-copy h2 {
+    font-size: 33px;
+  }
+  .benefits {
+    gap: 14px;
+  }
+  .benefits p {
+    padding-left: 14px;
+  }
+}
+@media (max-width: 640px) {
+  .header {
+    height: 80px;
+    gap: 12px;
+  }
+  .brand {
+    font-size: 29px;
+  }
+  .brandmark {
+    width: 29px;
+    height: 31px;
+    font-size: 25px;
+  }
+  .login {
+    font-size: 12px;
+  }
+  .login span {
+    margin-left: 4px;
+  }
+  .menu {
+    display: block;
+    min-height: 44px;
+    min-width: 44px;
+    background: #edf2e7;
+    color: #254934;
+    border-radius: 6px;
+    font-size: 20px;
+  }
+  .nav {
+    display: none;
+    position: absolute;
+    top: 79px;
+    left: 0;
+    right: 0;
+    padding: 20px 24px;
+    background: #fafbf8;
+    z-index: 5;
+    border-bottom: 1px solid #d3dccb;
+  }
+  .nav.show {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .nav a {
+    padding: 14px 0;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding-top: 36px;
+    padding-bottom: 32px;
+    gap: 32px;
+  }
+  h1 {
+    font-size: 45px;
+    letter-spacing: -2px;
+    margin: 20px 0;
+  }
+  .eyebrow {
+    font-size: 9px;
+    letter-spacing: 1.1px;
+  }
+  .intro {
+    font-size: 15px;
+  }
+  .desktop {
+    display: none;
+  }
+  .hero-note {
+    font-size: 10px;
+  }
+  .hero-art {
+    min-height: 365px;
+  }
+  .bank-card {
+    width: 270px;
+    top: 75px;
+    height: 184px;
+  }
+  .cashback {
+    bottom: 47px;
+  }
+  .art-bottom {
+    bottom: 16px;
+    font-size: 6px;
+  }
+  .art-top {
+    top: 16px;
+    font-size: 7px;
+  }
+  .benefits {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .benefits p {
+    border: 0;
+    padding: 0;
+    font-size: 10px;
+  }
+  .benefits span {
+    font-size: 10px;
+  }
+  .benefits strong {
+    font-size: 27px;
+  }
+  .section {
+    padding-top: 44px;
+  }
+  .section-heading {
+    margin-bottom: 22px;
+  }
+  h2 {
+    font-size: 29px;
+  }
+  .section-index {
+    display: none;
+  }
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+  .product {
+    min-height: 260px;
+    padding: 26px;
+  }
+  h3 {
+    max-width: none;
+    font-size: 25px;
+  }
+  .product p {
+    max-width: 290px;
+  }
+  .savings {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding-bottom: 44px;
+  }
+  .savings-copy {
+    padding-top: 0;
+  }
+  .savings-copy h2 {
+    font-size: 34px;
+  }
+  .rate {
+    margin-top: 20px;
+  }
+  .calculator {
+    padding: 24px;
+  }
+  .calculator label {
+    font-size: 12px;
+  }
+  .calculator label strong {
+    font-size: 16px;
+  }
+  .result strong {
+    font-size: 27px;
+  }
+  .about {
+    margin: 0 16px;
+    padding: 32px 18px;
+  }
+  .about h2 {
+    font-size: 28px;
+  }
+  .about p {
+    font-size: 13px;
+  }
+  .footer-top {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .footer-top > span {
+    font-size: 11px;
+  }
+  .footer-top > a:last-child {
+    font-size: 11px;
+  }
+  footer p {
+    font-size: 10px;
+  }
+  dialog {
+    padding: 30px 24px;
+  }
+  dialog h2 {
+    font-size: 28px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    scroll-behavior: auto;
+  }
+}

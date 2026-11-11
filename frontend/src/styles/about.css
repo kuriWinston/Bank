@@ -1,0 +1,13 @@
+.about {
+  background: #e8eedf;
+  text-align: center;
+  border-radius: 12px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #617154;
+  margin: 20px 0 25px;
+}
